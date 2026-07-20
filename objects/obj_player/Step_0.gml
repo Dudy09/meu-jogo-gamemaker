@@ -14,7 +14,7 @@ if(instance_exists(obj_caixa_texto))
 }
 
 hspd = (_right - _left) * vel_spd;
-vspd = (_up - _down) * vel_spd;
+vspd = (_down - _up) * vel_spd;
 
 #endregion
 
@@ -47,7 +47,7 @@ if place_meeting(x, y + vspd, obj_parede)
 	
 	vspd = 0;
 }
-y -= vspd;
+y += vspd;
 
 #endregion
 

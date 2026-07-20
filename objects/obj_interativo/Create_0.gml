@@ -1,1 +1,1 @@
-texto_interacao = "Este e um bau antigo feito de madeira escura. Voce tenta abrir, mas a fechadura esta completamente enferrujada.";
+texto_interacao = "Um predio muito mutio muito muito legal mesmo, tipo serio esse lugar e realmente muito foda, ebaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
