@@ -16,6 +16,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_caixa_texto","order":3,"path":"objects/obj_caixa_texto/obj_caixa_texto.yy",},
     {"name":"obj_interativo","order":2,"path":"objects/obj_interativo/obj_interativo.yy",},
     {"name":"obj_parede","order":1,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"Room1","order":1,"path":"rooms/Room1/Room1.yy",},

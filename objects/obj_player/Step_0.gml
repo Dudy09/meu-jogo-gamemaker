@@ -4,7 +4,14 @@ var _right = keyboard_check(ord("D")) or keyboard_check(vk_right);
 var _left = keyboard_check(ord("A")) or keyboard_check(vk_left);
 var _up = keyboard_check(ord("W")) or keyboard_check(vk_up);
 var _down = keyboard_check(ord("S")) or keyboard_check(vk_down);
-//var _interagir = keyboard_check_pressed(ord("Z")) or keyboard_check_pressed(vk_enter);
+
+if(instance_exists(obj_caixa_texto))
+{
+	_right = 0;
+	_left = 0;
+	_up = 0;
+	_down = 0;
+}
 
 hspd = (_right - _left) * vel_spd;
 vspd = (_up - _down) * vel_spd;
@@ -49,20 +56,29 @@ y -= vspd;
 //Caso você aperte Z ou Enter
 if(keyboard_check_pressed(ord("Z")) or keyboard_check_pressed(vk_enter))
 {
-	//Calcula um ponto exatamente 16 pixels à frente dos pés do jogador(isso porque o ponto de origem está no centro inferior)
-	var _checar_x = x + lengthdir_x(16, olhar_direcao);
-	var _checar_y = y + lengthdir_y(16, olhar_direcao);
-	
-	//Agora aqui ele está procurando se existem algum objeto interativo na exata posição
-	var _objeto_frente = instance_position(_checar_x, _checar_y, obj_interativo)
-	
-	//Caso ele consiga encontrar algo ele ativa o evento de interação dele
-	if(_objeto_frente != noone)
+	if(!instance_exists(obj_caixa_texto))
 	{
-		with(_objeto_frente)
+		//Calcula um ponto exatamente 16 pixels à frente dos pés do jogador(isso porque o ponto de origem está no centro inferior)
+		var _checar_x = x + lengthdir_x(16, olhar_direcao);
+		var _checar_y = y + lengthdir_y(16, olhar_direcao);
+	
+		//Agora aqui ele está procurando se existem algum objeto interativo na exata posição
+		var _objeto_frente = instance_position(_checar_x, _checar_y, obj_interativo)
+	
+		//Caso ele consiga encontrar algo ele ativa o evento de interação dele
+		if(_objeto_frente != noone)
 		{
-			//Por enquanto vou deixar apenas um balão de texto só por teste
-			show_message(texto_interacao);
+			with(_objeto_frente)
+			{
+				#region //alterando o jeito de mostrar o texto
+				/* Por enquanto vou deixar apenas um balão de texto só por teste
+				show_message(texto_interacao);*/
+				#endregion
+				// Qual a diferença desse pro outro, simples em vez de mostrar a mensagem cinza, ela cria a caixa de texto personalizada
+				var _caixa = instance_create_layer(0, 0, "Instances", obj_caixa_texto);
+				_caixa.texto_completo = texto_interacao;
+				io_clear();
+			}
 		}
 	}
 	

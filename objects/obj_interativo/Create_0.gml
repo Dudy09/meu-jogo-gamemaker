@@ -1,1 +1,1 @@
-texto_interacao = "Voce encontrou um bau antigo";
+texto_interacao = "Este e um bau antigo feito de madeira escura. Voce tenta abrir, mas a fechadura esta completamente enferrujada.";
