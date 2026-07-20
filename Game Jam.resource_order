@@ -16,6 +16,10 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_interativo","order":2,"path":"objects/obj_interativo/obj_interativo.yy",},
+    {"name":"obj_parede","order":1,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"Room1","order":1,"path":"rooms/Room1/Room1.yy",},
+    {"name":"spr_interativo","order":2,"path":"sprites/spr_interativo/spr_interativo.yy",},
+    {"name":"spr_parede","order":1,"path":"sprites/spr_parede/spr_parede.yy",},
   ],
 }

@@ -1,0 +1,1 @@
+texto_interacao = "Voce encontrou um bau antigo";
