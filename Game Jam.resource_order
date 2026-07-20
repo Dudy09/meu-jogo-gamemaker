@@ -1,0 +1,28 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Anotações","order":12,"path":"folders/Anotações.yy",},
+    {"name":"Caminhos","order":6,"path":"folders/Caminhos.yy",},
+    {"name":"Conjuntos de tiles","order":3,"path":"folders/Conjuntos de tiles.yy",},
+    {"name":"Curvas da animação","order":11,"path":"folders/Curvas da animação.yy",},
+    {"name":"Extensões","order":13,"path":"folders/Extensões.yy",},
+    {"name":"Fontes","order":8,"path":"folders/Fontes.yy",},
+    {"name":"Linhas do tempo","order":9,"path":"folders/Linhas do tempo.yy",},
+    {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
+    {"name":"entidades","order":4,"path":"folders/Objetos/entidades.yy",},
+    {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Sequências","order":10,"path":"folders/Sequências.yy",},
+    {"name":"Shaders","order":7,"path":"folders/Shaders.yy",},
+    {"name":"Sons","order":5,"path":"folders/Sons.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_entidade","order":1,"path":"objects/obj_entidade/obj_entidade.yy",},
+    {"name":"obj_npc","order":2,"path":"objects/obj_npc/obj_npc.yy",},
+    {"name":"obj_parede_npc","order":3,"path":"objects/obj_parede_npc/obj_parede_npc.yy",},
+    {"name":"obj_parede","order":1,"path":"objects/obj_parede/obj_parede.yy",},
+    {"name":"spr_npc","order":2,"path":"sprites/spr_npc/spr_npc.yy",},
+    {"name":"spr_parede_npc","order":3,"path":"sprites/spr_parede_npc/spr_parede_npc.yy",},
+    {"name":"spr_parede","order":1,"path":"sprites/spr_parede/spr_parede.yy",},
+  ],
+}
