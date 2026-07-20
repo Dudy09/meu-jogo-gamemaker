@@ -1,4 +1,4 @@
-var _right = keyboard_check_pressed(vk_right);
+rvar _right = keyboard_check_pressed(vk_right);
 var _left = keyboard_check_pressed(vk_left);
 var _up = keyboard_check_pressed(vk_up);
 var _down = keyboard_check_pressed(vk_down);

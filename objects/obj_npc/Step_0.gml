@@ -1,4 +1,4 @@
-if place_meeting(x, y, obj_parede_npc)
+pif place_meeting(x, y, obj_parede_npc)
 {
 	if direc == 0
 	{

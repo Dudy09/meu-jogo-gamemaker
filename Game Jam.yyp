@@ -47,6 +47,7 @@
     {"id":{"name":"spr_parede_npc","path":"sprites/spr_parede_npc/spr_parede_npc.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_ronaldo","path":"sprites/spr_ronaldo/spr_ronaldo.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
