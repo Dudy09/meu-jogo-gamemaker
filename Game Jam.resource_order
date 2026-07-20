@@ -24,6 +24,5 @@
     {"name":"spr_npc","order":2,"path":"sprites/spr_npc/spr_npc.yy",},
     {"name":"spr_parede_npc","order":3,"path":"sprites/spr_parede_npc/spr_parede_npc.yy",},
     {"name":"spr_parede","order":1,"path":"sprites/spr_parede/spr_parede.yy",},
-    {"name":"spr_ronaldo","order":4,"path":"sprites/spr_ronaldo/spr_ronaldo.yy",},
   ],
 }
