@@ -1,0 +1,1 @@
+texto_interacao = "Um predio";

@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_transicao",
+  "%Name":"obj_transicao_vertical",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_transicao",
+  "name":"obj_transicao_vertical",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -26,7 +26,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"target_room","filters":[],"listItems":[],"multiselect":false,"name":"target_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Room2","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"tipo_transicao","filters":[],"listItems":[],"multiselect":false,"name":"tipo_transicao","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"vertical\"","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

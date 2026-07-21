@@ -1,0 +1,1 @@
+texto_interacao = "Um predio muito mutio muito muito legal mesmo, tipo serio esse lugar e realmente muito foda, ebaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";

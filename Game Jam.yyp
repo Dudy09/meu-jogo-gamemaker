@@ -39,10 +39,11 @@
   "resources":[
     {"id":{"name":"obj_caixa_texto","path":"objects/obj_caixa_texto/obj_caixa_texto.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_interativo","path":"objects/obj_interativo/obj_interativo.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
+    {"id":{"name":"obj_transicao_vertical","path":"objects/obj_transicao_vertical/obj_transicao_vertical.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"spr_interativo","path":"sprites/spr_interativo/spr_interativo.yy",},},
